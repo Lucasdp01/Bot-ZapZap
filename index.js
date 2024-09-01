@@ -1,8 +1,22 @@
-// const puppeteer = require('puppeteer');
+const puppeteer = require("puppeteer-core");
+const chromium = require("chrome-aws-lambda");
+
 const { sleep } = require("./sleep.js");
 const qrcode = require("qrcode-terminal");
 const path = require("path");
 const { Client, LocalAuth, MessageMedia } = require("whatsapp-web.js");
+
+(async () => {
+  const browser = await puppeteer.launch({
+    args: chromium.args,
+    executablePath: await chromium.executablePath,
+    headless: chromium.headless,
+  });
+
+  // Seu código aqui
+
+  await browser.close();
+})();
 
 const client = new Client({
   authStrategy: new LocalAuth(),
