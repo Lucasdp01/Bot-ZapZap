@@ -1,0 +1,6 @@
+2024/09/01-12:31:15.176 5b2c Reusing MANIFEST C:\Users\Lucas\Documents\Bot ZapZap\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
+2024/09/01-12:31:15.177 5b2c Recovering log #19
+2024/09/01-12:31:15.180 5b2c Reusing old log C:\Users\Lucas\Documents\Bot ZapZap\.wwebjs_auth\session\Default\Local Storage\leveldb/000019.log 
+2024/09/01-12:33:16.136 27b4 Level-0 table #23: started
+2024/09/01-12:33:16.139 27b4 Level-0 table #23: 13150 bytes OK
+2024/09/01-12:33:16.141 27b4 Delete type=0 #19
